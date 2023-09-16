@@ -7,19 +7,26 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
+    border: 1px solid red;
 }
 
 body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: inherit;
     display: flex;
+    border: 1px solid blue;
 }
 
 header {
-    flex: 1 1 33%;
+    background-image: url(colosseum.jpg);
+    background-size: cover;
+    flex: 1 1 35%;
+    overflow: hidden;
 }
 
 main {
-    flex: 1 1 66%;
+    padding: 010%;
+    flex: 1 1 65%;
     display: flex;
     flex-direction: column;
     justify-content: center;
