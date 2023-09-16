@@ -7,7 +7,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-    border: 1px solid red;
+    border: 1px solid red; /* remove when structure is improved */
 }
 
 body {
@@ -18,10 +18,29 @@ body {
 }
 
 header {
+    position: relative;
     background-image: url(colosseum.jpg);
     background-size: cover;
     flex: 1 1 35%;
     overflow: hidden;
+}
+
+.logo-container {
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    top: 25%;
+    left: 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2)
+}
+
+.background-credit {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: center;
 }
 
 main {
