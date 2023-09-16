@@ -31,8 +31,20 @@ header {
     padding: 10px;
     top: 25%;
     left: 0;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: rgba(0, 0, 0, 0.2)
+}
+
+.logo {
+    width: 20%;
+    aspect-ratio: 1;
+}
+
+.logo-container::after {
+    content: "COLOSSEUM";
+    font-size: 4rem;
 }
 
 .background-credit {
