@@ -7,14 +7,13 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-    border: 1px solid red; /* remove when structure is improved */
+    /* border: 1px solid red; */
 }
 
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: inherit;
     display: flex;
-    border: 1px solid blue;
 }
 
 header {
@@ -66,4 +65,22 @@ main {
 
 .call-to-action > h1 {
     margin: 16px;
+}
+
+legend {
+    float: left; /* Moves legend inside fieldset while maintaining relative positioning */
+}
+
+.form-container {
+    clear: both; /* Ensures form container will position below the legend, not beside it */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+}
+
+.form-item {
+    width: 40%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
 }
