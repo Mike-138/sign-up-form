@@ -1,5 +1,24 @@
 :root {
+    font-size: 8px;
     --main-padding: 0 20% 0 10%;
+}
+
+@media only screen and (min-width: 576px) {
+    :root {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    :root {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    :root {
+        font-size: 16px;
+    }
 }
 
 html {
@@ -47,7 +66,8 @@ header {
 
 .logo-container::after {
     content: "COLOSSEUM";
-    font-size: 4rem;
+    font-size: 2.75rem;
+    font-weight: bold;
 }
 
 .background-credit {
