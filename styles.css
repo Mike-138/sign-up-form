@@ -1,3 +1,7 @@
+:root {
+    --main-padding: 0 20% 0 10%;
+}
+
 html {
     height: 100%;
     box-sizing: border-box;
@@ -33,7 +37,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(0, 0, 0, 0.2)
+    background: rgba(0, 0, 0, 0.2);
 }
 
 .logo {
@@ -52,6 +56,12 @@ header {
     bottom: 0;
     left: 0;
     text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.background-credit a {
+    color: inherit;
 }
 
 main {
@@ -65,14 +75,22 @@ main {
 }
 
 .call-to-action > h1 {
-    margin: 16px;
+    margin: 1rem 0;
+}
+
+.call-to-action, .submit-container {
+    padding: var(--main-padding);
+}
+
+form {
+    padding: var(--main-padding);
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
 }
 
 fieldset {
-    padding: 1rem;
-    background: white;
+    padding: 1rem 0;
     border: none;
-    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
 }
 
 legend {
