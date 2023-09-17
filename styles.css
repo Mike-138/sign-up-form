@@ -91,7 +91,7 @@ main {
     justify-content: center;
     align-items: stretch;
     gap: 2rem;
-    background: lightgray;
+    background: rgb(242, 244, 247);
 }
 
 .call-to-action, .submit-container {
