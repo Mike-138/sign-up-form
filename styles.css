@@ -10,15 +10,8 @@
     }
 }
 
-/* Large Mobile */
-@media only screen and (min-width: 660px) {
-    :root {
-        font-size: 10px;
-    }
-}
-
 /* Tablet/Laptop -> 768px standard */
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 768px) {
     :root {
         font-size: 12px;
     }
@@ -53,7 +46,7 @@ header {
     position: relative;
     background-image: url(colosseum.jpg);
     background-size: cover;
-    flex: 1 1 0;
+    flex: 3 1 0;
     overflow: hidden;
 }
 
@@ -97,7 +90,7 @@ header {
 }
 
 main {
-    flex: 2 1 0;
+    flex: 5 1 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
