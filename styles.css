@@ -160,6 +160,10 @@ input:focus {
     outline: 1px solid blue; /* Changing border does not work */
 }
 
+input:invalid:focus {
+    outline: 1px solid red; /* Changing border does not work */
+}
+
 .submit-container {
     gap: 2rem;
 }
