@@ -70,19 +70,22 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
-    gap: 24px;
+    gap: 2rem;
     background: lightgray;
-}
-
-.call-to-action > h1 {
-    margin: 1rem 0;
 }
 
 .call-to-action, .submit-container {
     padding: var(--main-padding);
+    display: flex;
+    flex-direction: column;
+}
+
+.call-to-action {
+    gap: 1rem;
 }
 
 form {
+    margin-top: 1rem;
     padding: var(--main-padding);
     background: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
@@ -133,4 +136,25 @@ input {
 
 input:focus {
     outline: 1px solid blue; /* Changing border does not work */
+}
+
+.submit-container {
+    gap: 2rem;
+}
+
+button {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem 4rem;
+    align-self: flex-start;
+    color: white;
+    background: darkolivegreen;
+    border: none;
+    border-radius: 10px;
+}
+
+.log-in a{
+    font-weight: bold;
+    color: darkolivegreen;
+    text-decoration: none;
 }
